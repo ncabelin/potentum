@@ -120,15 +120,6 @@ h3 {
   color: black;
 }
 
-/*#tech {
-  background: url('https://cloud.githubusercontent.com/assets/15892944/13978778/eb3e4ef6-f090-11e5-982c-ae199fe2d945.jpg') no-repeat fixed center center;
-  background-size: cover;
-  height: 700px;
-  color: black;
-  font-size: 20px;
-  padding: 60px 40px 60px 20px;
-}*/
-
 #aboutUs {
   position: relative;
   padding: 60px 40px 60px 20px;
@@ -145,97 +136,40 @@ h3 {
   padding-right: 10px;
 }
 
-/*#aboutUs li {
+#tech {
+  position: relative;
+  background: url('https://cloud.githubusercontent.com/assets/15892944/13978778/eb3e4ef6-f090-11e5-982c-ae199fe2d945.jpg') no-repeat fixed center center;
+  background-size: cover;
+  height: 700px;
+  color: black;
+}
+
+.tech_list {
+  width: 100px;
   margin: 10px;
 }
 
-#contact {
-  background: url('https://cloud.githubusercontent.com/assets/15892944/13979963/03e1ad06-f099-11e5-8645-08d3739aca43.jpg') no-repeat center;
-  background-size: cover;
-  height: 600px;
-  font-size: 20px;
-  width: 100%;
-  padding: 30px;
+.my_icon {
+  margin: 10px;
+  font-size: 3em;
 }
 
-#contact ul { list-style: none; }
-
-#contact ul li a {
-  color: white;
+.fa-apple, .fa-id-card-o {
+  color: #acaaaa;
 }
 
-.section {
-  padding-top:60px;
-}
-.well {
-  background-color: rgba(0,0,0,0.3);
-  border-style: none;
-  padding-left:30px;
-  width:60%;
-  border-radius: 60%;
-  color: white;
-}
-.well2 {
-  background-color: rgba(255,255,255,0.3);
-  border-style: none;
-  margin-top: 20px;
+.fa-android {
+  color: green;
 }
 
-.centered {
-  margin-left:auto;
-  margin-right:auto;
+.fa-facebook {
+  color: #4867aa;
 }
 
-.nav li {
-  padding-top: 1px;
+.fa-google-plus-official {
+  color: #c25349;
 }
 
-.nav li a {
-  font-weight: 400;
-  border: 2px solid white;
+.fa-twitter {
+  color: #1da1f2;
 }
-
-.nav li a:hover {
-  border: 2px solid #021A52;
-  background-color: #021A52 !important;
-  color: white !important;
-}
-
-.white {
-  color: white;
-}
-
-.contacts {
-  width: 100%;
-}
-
-.bold {
-  font-weight: 400;
-}
-
-@media screen and (max-width:550px) {
-  #tech, #aboutUs, #contact {
-    padding-top: 20px;
-    height: 500px;
-  }
-  #heading {
-    height: 500px;
-    background-color: #255671;
-    padding-top: 60px;
-  }
-  h2 {
-    font-size: 25px;
-  }
-  .well {
-    width:100%;
-    font-size: 14px;
-  }
-  .contacts {
-    font-size: 14px;
-  }
-  .nav li {
-    text-align: center;
-  }
-}
-
-*/
