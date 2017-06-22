@@ -60,7 +60,7 @@ h4 {
 #hero {
   background: url('http://res.cloudinary.com/dd6kwd0zn/image/upload/v1498161437/skyseee_i32xu3.jpg') 50% 0 no-repeat fixed;
   background-size: cover;
-  min-height: 600px;
+  min-height: 700px;
   position: relative;
   display: table;
   width: 100%;
@@ -69,6 +69,37 @@ h4 {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizelegibility;
   color: black;
+}
+
+.white {
+  color: white;
+}
+
+.black {
+  color: black;
+}
+
+.bounce {
+  position: absolute;
+  left:50%;
+  bottom: 30px;
+  margin-top:-25px;
+  margin-left:-25px;
+  height:50px;
+  width:50px;
+  -webkit-animation:bounce 1s infinite;
+}
+
+@-webkit-keyframes bounce {
+  0%       { bottom:35px; }
+  25%, 75% { bottom:45px; }
+  50%      { bottom:50px; }
+  100%     { bottom:30px;}
+}
+
+.fa-angle-double-down {
+  font-size: 4em;
+
 }
 
 .quote {
@@ -89,24 +120,32 @@ h3 {
   color: black;
 }
 
-#tech {
+/*#tech {
   background: url('https://cloud.githubusercontent.com/assets/15892944/13978778/eb3e4ef6-f090-11e5-982c-ae199fe2d945.jpg') no-repeat fixed center center;
   background-size: cover;
   height: 700px;
   color: black;
   font-size: 20px;
   padding: 60px 40px 60px 20px;
-}
+}*/
 
 #aboutUs {
-  background: url('https://cloud.githubusercontent.com/assets/15892944/13976694/9749ee74-f07f-11e5-9829-a03cd8fc6caf.jpg') no-repeat center;
-  background-size: cover;
-  height: 700px;
+  position: relative;
   padding: 60px 40px 60px 20px;
   font-size: 18px;
+  color: black;
 }
 
-#aboutUs li {
+.offers li {
+  margin: 20px 0;
+}
+
+#bird {
+  float: right;
+  padding-right: 10px;
+}
+
+/*#aboutUs li {
   margin: 10px;
 }
 
@@ -199,3 +238,4 @@ h3 {
   }
 }
 
+*/
