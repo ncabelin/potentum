@@ -1,17 +1,14 @@
+/* Color pallette: 
+    Blue #031856 */
+
 body, html {
   margin: 0px;
 }
 
 body {
-  background: url('http://res.cloudinary.com/dd6kwd0zn/image/upload/v1498159262/skyfly_tineay.jpg') fixed no-repeat center center;
-  background-size: cover;
   font-family: 'Open Sans', sans-serif;
   color: white;
   font-weight: 300;
-}
-
-.centered {
-  text-align: center;
 }
 
 h1, h2 {
@@ -60,9 +57,23 @@ h4 {
   width: 100%;
 }
 
-.container-fluid {
-  padding-left: 0px;
-  padding-right: 0px;
+#hero {
+  background: url('http://res.cloudinary.com/dd6kwd0zn/image/upload/v1498161437/skyseee_i32xu3.jpg') 50% 0 no-repeat fixed;
+  background-size: cover;
+  min-height: 600px;
+  position: relative;
+  display: table;
+  width: 100%;
+  padding: 40px 0;
+  /* Photo by Joshua Earle on Unsplash */
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+  color: black;
+}
+
+.quote {
+  font-weight: 400;
+  font-size: 2em;
 }
 
 h3 {
@@ -72,6 +83,10 @@ h3 {
 .navbar {
   border-radius: 0px;
   background-color: white;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: black;
 }
 
 #tech {
@@ -118,6 +133,8 @@ h3 {
   border-style: none;
   padding-left:30px;
   width:60%;
+  border-radius: 60%;
+  color: white;
 }
 .well2 {
   background-color: rgba(255,255,255,0.3);
